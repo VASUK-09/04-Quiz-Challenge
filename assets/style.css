@@ -1,0 +1,76 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Share+Tech&display=swap");
+
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    /* Background image*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* css so footer is at bottom of viewport */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content */
+main {
+    
+    flex: 1 0 auto;
+}
+
+
+/* hide sections until they are shown via the click events */
+#questions,
+#final,
+#highscores,
+#yaynay {
+    display: none;  
+  } 
+
+/* Remove bullet points from answers list */
+ul.nobullets {
+list-style-type: none;
+}
+
+/* Answer button styling */
+.ansBtn,
+.ansBtn:hover,
+.ansBtn:active,
+.ansBtn:focus,
+.ansBtn:active:focus {
+    box-shadow: none;
+    outline: none;
+    background-color: #28a745;
+}
+
+/* Media queries for background image*/
+
+/* Mobile */
+@media (max-width: 480px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 1024px) {
+    body {
+        background-image: url(https://wallpaperaccess.com/full/2384075.jpg);
+    }
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+    body {
+	    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS95SlINPOacVHxxcK8T8zYn94m1bUg9yVAbQ&usqp=CAU);
+   }
+}
