@@ -38,4 +38,4 @@ THEN I can save my initials and scor
 ## Links
 [Link to Github Repository](https://github.com/VASUK-09/04-Quiz-Challenge.git)
 
-[Link to Github pages](https://vasuk-09.github.io/Password-Generator-03/)
+[Link to Github pages](https://vasuk-09.github.io/04-Quiz-Challenge/)
